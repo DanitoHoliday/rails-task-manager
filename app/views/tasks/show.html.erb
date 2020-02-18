@@ -1,0 +1,12 @@
+<h2>This is the show page</h2>
+
+<div class="container">
+  <div><%= @task.title %>
+    <br>
+      <%= @task.details%></div>
+</div>
+
+<div><%= link_to "Edit this task", edit_task_path(@task)%></div>
+
+<div><%= link_to "See all tasks", tasks_url%></div>
+
